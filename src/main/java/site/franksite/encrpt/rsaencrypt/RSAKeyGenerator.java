@@ -61,7 +61,7 @@ public class RSAKeyGenerator {
 	}
 
 	/**
-	 * @return the privateKeyEncoded
+	 * @return the privateKeyEncoded, encrypt by Base64
 	 */
 	public byte[] getPrivateKeyEncoded() {
 		if (null == privateKeyEncoded) {
